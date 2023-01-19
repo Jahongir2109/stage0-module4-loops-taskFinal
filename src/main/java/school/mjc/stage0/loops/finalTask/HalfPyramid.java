@@ -3,10 +3,10 @@ package school.mjc.stage0.loops.finalTask;
 public class HalfPyramid {
 
     public void printHalfPyramid(int cathetusLength) {
-        for (int i = 0; i < cathetusLength; i++) {
+        for (int i = 1; i <= cathetusLength; i++) {
             String str="";
-            for (int j = 0; j < cathetusLength; j++) {
-                if(cathetusLength-i<=j){
+            for (int j = 1; j <= cathetusLength; j++) {
+                if(cathetusLength-i<j){
                     str+="*";
                 }else {
                     str+=" ";
